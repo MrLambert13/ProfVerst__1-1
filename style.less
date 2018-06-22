@@ -236,12 +236,15 @@ body {
 }
 
 .alldiscount_parent {
-    height: 1020px;
+    height: 1020px - 50px;
     background-color: #fff;
+    padding-top: 98px;
+    padding-bottom: 49px;
+    box-sizing: border-box;
 }
 
 .alldiscount {
-    margin: 100px auto 50px;
+    //    margin: 100px auto 50px;
     height: 823px;
     display: flex;
     flex-wrap: wrap;
@@ -306,11 +309,13 @@ body {
     height: 982px;
 
     &__header {
+        margin-top: 50px;
         color: #222222;
         font-size: 30px;
         font-weight: 700;
         line-height: 23px;
         text-align: center;
+        margin-bottom: 16px;
     }
 
     &__description {
@@ -319,60 +324,109 @@ body {
         font-weight: 400;
         line-height: 23xp;
         text-align: center;
+        margin-bottom: 60px;
+    }
+
+    &__seeall {
+        text-transform: capitalize;
+        text-decoration: none;
+        display: block;
+        background-color: #f16d7f;
+        width: 212px;
+        height: 48px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+
+        &:hover {
+            color: #222;
+        }
     }
 }
 
-.menuItems {
+
+
+.items_parent {
     display: flex;
-    height: 364px + 39px + 364px;
-    list-style-type: none;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-between;
+    height: 766px;
+}
 
-    &__link {
+.item {
+    width: 263px;
+    height: 364px;
+    position: relative;
+
+    &:hover {
+        box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+    }
+
+    &:hover &__card {
         display: block;
-        height: 280px;
-        width: 261px;
-        text-decoration: none;
+    }
 
-        &-h6 {
-            color: #222222;
+    &__name {
+        margin: 20px 15px 17px;
+        color: #222222;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 11px;
+        text-transform: uppercase;
+    }
+
+    &__price {
+        padding-left: 15px;
+        padding-bottom: 21px;
+        color: #f16d7f;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 15px;
+    }
+
+    &__card {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(58, 56, 56, 0.83);
+        width: 263px;
+        height: 281px;
+        text-align: center;
+        display: none;
+        padding-top: 100px;
+        box-sizing: border-box;
+
+        &-link {
+            display: inline-flex;
+            margin: 0 2, 5px;
+            align-items: center;
+            padding: 8px;
+            outline: 2px solid #fff;
+            text-decoration: none;
+            color: #ffffff;
+
             font-size: 13px;
-            font-weight: 400;
-            line-height: 11px;
-            text-transform: uppercase;
-        }
-
-        &-text {
-            color: #f16d7f;
-            font-size: 16px;
             font-weight: 700;
-            line-height: 15px;
+            line-height: 10px;
+
+            &:hover {
+                text-decoration: underline;
+                color: #f16d7f;
+            }
+
+            img {
+                margin-right: 5px;
+            }
         }
     }
 }
 
-.items1{
-    background-image: url(img/item1.jpg);
-}
-.items2{
-    background-image: url(img/item2.jpg);
-}
-.items3{
-    background-image: url(img/item3.jpg);
-}
-.items4{
-    background-image: url(img/item4.jpg);
-}
-.items5{
-    background-image: url(img/item5.jpg);
-}
-.items6{
-    background-image: url(img/item6.jpg);
-}
-.items7{
-    background-image: url(img/item7.jpg);
-}
-.items8{
-    background-image: url(img/item8.jpg);
+.seeall_parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
