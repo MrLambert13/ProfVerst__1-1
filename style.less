@@ -302,7 +302,7 @@ body {
 }
 
 .fetured_parent {
-    height: 1095px;
+    //    height: 1095px;
 }
 
 .Fetured {
@@ -324,21 +324,22 @@ body {
         font-weight: 400;
         line-height: 23xp;
         text-align: center;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
 
     &__seeall {
         text-transform: capitalize;
         text-decoration: none;
         display: block;
-        background-color: #f16d7f;
-        width: 212px;
-        height: 48px;
+        background-color: #f16d7f; //        width: 212px;
+        //        height: 48px;
         color: #ffffff;
         font-size: 16px;
         font-weight: 700;
         line-height: 48px;
         text-align: center;
+        padding: 0 15px;
+        box-sizing: border-box;
 
         &:hover {
             color: #222;
@@ -352,21 +353,29 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between;
-    height: 766px;
+    align-content: space-between; //    height: 766px;
 }
 
 .item {
     width: 263px;
     height: 364px;
     position: relative;
-
+    text-decoration: none;
+    margin-top: 40px;
     &:hover {
         box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
     }
 
     &:hover &__card {
         display: block;
+    }
+
+    &:hover &__img {
+        filter: brightness(17%)
+    }
+
+    &__linktoproduct {
+        text-decoration: none;
     }
 
     &__name {
@@ -390,8 +399,7 @@ body {
     &__card {
         position: absolute;
         top: 0;
-        left: 0;
-        background-color: rgba(58, 56, 56, 0.83);
+        left: 0; //        background-color: rgba(58, 56, 56, 0.83);
         width: 263px;
         height: 281px;
         text-align: center;
@@ -429,4 +437,97 @@ body {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 15px;
+}
+
+.offer {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 97px;
+}
+
+.offerdiscount {
+    position: relative;
+
+    img {
+        height: 100%;
+    }
+
+    &__text {
+        position: absolute;
+        top: 146px;
+        left: 39px;
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+
+        &-main {
+            color: #ffffff;
+            font-size: 54px;
+            font-weight: 700;
+
+            &RED {
+                color: #f16d7f;
+            }
+        }
+
+        &-second {
+            color: #ffffff;
+            font-size: 32px;
+            font-weight: 700;
+        }
+    }
+}
+
+.offerDescription {
+    width: 100%;
+    background-color: #222224;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+
+    &Cells {
+        display: flex;
+        margin-left: 36px;
+        margin-top: 48px;
+
+        &__img {
+            align-self: flex-start;
+
+            margin-right: 33px;
+        }
+
+        &__text {
+            width: 219px;
+
+            &-head {
+                margin-top: 7px;
+                color: #fbfbfb;
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+                line-height: 16px;
+            }
+
+            &-description {
+                margin-top: 17px;
+                /* Style for "Worldwide" */
+                color: #fbfbfb;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 24px;
+                letter-spacing: 0.35px;
+            }
+        }
+    }
+}
+
+.subscribe {
+    background-color: #eeeeee;
+    background-image: url(img/subscribebg.jpg);
+    filter: contrast(60%);
+    height: 438px;
+    margin-bottom: 50px;
 }
