@@ -369,9 +369,6 @@ body {
 .offerdiscount {
   position: relative;
 }
-.offerdiscount img {
-  height: 100%;
-}
 .offerdiscount__text {
   position: absolute;
   top: 146px;
@@ -396,10 +393,6 @@ body {
 .offerDescription {
   width: 100%;
   background-color: #222224;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   flex-direction: column;
 }
@@ -435,7 +428,36 @@ body {
 .subscribe {
   background-color: #eeeeee;
   background-image: url(img/subscribebg.jpg);
-  filter: contrast(60%);
   height: 438px;
   margin-bottom: 50px;
+}
+.leftblock {
+  display: flex;
+}
+.leftblock__imgface {
+  margin-right: 28px;
+  align-self: flex-start;
+}
+.leftblock__text {
+  padding-top: 12px;
+  letter-spacing: 0.4px;
+  font-size: 16px;
+  color: #222224;
+  line-height: 26px;
+}
+.leftblock__text-opinion {
+  width: 386px;
+  font-size: 16px;
+  font-style: italic;
+}
+.leftblock__text-name {
+  color: #f16d7f;
+  font-weight: 700;
+}
+.leftblock__text-place {
+  font-family: "Lato Light";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 14px;
 }
