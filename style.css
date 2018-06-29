@@ -454,6 +454,9 @@ body {
 .offerdiscount {
   position: relative;
 }
+.offerdiscount img {
+  height: 100%;
+}
 .offerdiscount__text {
   position: absolute;
   top: 146px;
