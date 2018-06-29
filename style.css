@@ -173,7 +173,7 @@ body {
   left: -26px;
 }
 .megamenu__flex {
-  width: 237px;
+  min-width: 237px;
   margin-right: 44px;
 }
 .megamenu__flex:last-child {
@@ -201,6 +201,9 @@ body {
 }
 .megamenu__flex a:hover {
   color: #f16d7f;
+}
+.megamenu__flex img {
+  margin-top: 15px;
 }
 .theBrand {
   background-color: #e8e8e8;
