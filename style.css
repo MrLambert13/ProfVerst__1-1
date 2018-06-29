@@ -223,19 +223,25 @@ body {
   font-weight: 700;
   line-height: 10px;
 }
-.nav__ul-active {
-  border-bottom: 3px solid #ef5b70;
+.nav__ul > li {
+  position: relative;
 }
-.nav__ul a {
+.nav__ul > li:hover .megamenu {
+  display: flex;
+}
+.nav__ul > li > a {
   display: block;
   text-decoration: none;
   padding: 19px 22px;
   color: #222222;
 }
-.nav__ul a:hover {
+.nav__ul > li > a:hover {
   transition: 1s;
   background: #f16d7f;
   color: #ffffff;
+}
+.nav__ul-active {
+  border-bottom: 3px solid #ef5b70;
 }
 .brandFlex {
   display: flex;
@@ -504,6 +510,8 @@ body {
 .subscribe {
   background-color: #eeeeee;
   background-image: url(img/subscribebg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 438px;
   margin-bottom: 50px;
 }
