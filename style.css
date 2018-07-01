@@ -39,7 +39,7 @@ body {
   border-color: #ececec;
   box-sizing: border-box;
   background-color: #ffffff;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
   height: 100px; }
   .header__flex {
     display: flex;
@@ -305,7 +305,7 @@ body {
     color: #9f9f9f;
     font-size: 14px;
     font-weight: 400;
-    line-height: 23xp;
+    line-height: 23px;
     text-align: center;
     margin-bottom: 20px; }
   .Fetured__seeall {
@@ -336,7 +336,7 @@ body {
   text-decoration: none;
   margin-top: 40px; }
   .item:hover {
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16); }
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16); }
   .item:hover .item__card {
     display: block; }
   .item:hover .item__img {
@@ -369,7 +369,7 @@ body {
     box-sizing: border-box; }
     .item__card-link {
       display: inline-flex;
-      margin: 0 2, 5px;
+      margin: 0 2.5px;
       align-items: center;
       padding: 8px;
       outline: 2px solid #fff;
@@ -397,6 +397,23 @@ body {
 
 .offerdiscount {
   position: relative; }
+  .offerdiscount__text {
+    position: absolute;
+    top: 146px;
+    left: 39px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase; }
+    .offerdiscount__text-main {
+      color: #ffffff;
+      font-size: 54px;
+      font-weight: 700; }
+      .offerdiscount__text-mainRED {
+        color: #f16d7f; }
+    .offerdiscount__text-second {
+      color: #ffffff;
+      font-size: 32px;
+      font-weight: 700; }
 
 .offerDescription {
   width: 100%;
