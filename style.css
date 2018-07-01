@@ -15,6 +15,9 @@ body {
 .marginblock {
   margin: 0 50px; }
 
+.paddingvertical50 {
+  padding: 50px 0; }
+
 .flex {
   display: flex; }
   .flex-jcsb {
@@ -24,6 +27,9 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center; }
+  .flex-aic {
+    display: flex;
+    align-items: center; }
 
 .liStyle-none {
   list-style: none; }
@@ -794,5 +800,179 @@ body {
   .catalogFooter__btn:hover {
     background-color: #ef5b70;
     color: #fff; }
+
+.row {
+  border-bottom: 1px solid #eaeaea;
+  color: #656565;
+  padding: 20px 3px; }
+
+.headrow {
+  padding: 20px 3px;
+  color: #222222;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase; }
+
+.detail {
+  flex: 4; }
+  .detail__prodName {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 11px;
+    margin: 15px 0; }
+  .detail__prodChar {
+    color: #575757;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px; }
+    .detail__prodChar-gray {
+      color: #6f6e6e;
+      font-weight: 300; }
+  .detail a:hover {
+    text-decoration: underline; }
+    .detail a:hover img {
+      filter: brightness(50%); }
+
+.cardPrice {
+  text-align: center; }
+  .cardPrice__text {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 120px; }
+
+.quantity {
+  justify-content: center; }
+  .quantity__input {
+    width: 57px;
+    height: 33px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    padding: 3px; }
+
+.ship {
+  text-align: center; }
+  .ship__text {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 120px;
+    text-transform: uppercase; }
+
+.action {
+  text-align: center; }
+  .action__del {
+    color: #c0c0c0;
+    line-height: 120px; }
+    .action__del:hover {
+      color: #f16d7f; }
+
+.cardPrice, .quantity, .ship, .subtotal, .action {
+  flex: 1; }
+
+.bd {
+  outline: 1px solid #000;
+  height: 120px; }
+
+.cartButtons {
+  margin: 40px 0; }
+  .cartButtons__btn {
+    text-align: center;
+    height: 53px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    padding: 0 40px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 53px; }
+    .cartButtons__btn:hover {
+      background-color: #f16d7f;
+      color: #ffffff; }
+
+.adress__text-hint {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 36px; }
+.adress__text-head {
+  margin-bottom: 20px;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 13px; }
+.adress__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 5px;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 8px 0; }
+.adress__btn {
+  margin-top: 20px;
+  display: block;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 13px 15px;
+  color: #4a4a4a;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .adress__btn:hover {
+    color: #ffffff;
+    background-color: #f16d7f; }
+
+.adress, .coupon, .total {
+  flex: 1; }
+
+.coupon {
+  margin: 0 30px; }
+
+.total {
+  background-color: #f5f3f3;
+  padding: 40px; }
+  .total__text-sub {
+    text-align: right;
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .total__text-grand {
+    text-align: right;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .total__text-priceRED {
+    color: #f16d7f; }
+  .total__hr {
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e2e2; }
+  .total__check {
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    background-color: #f16d7f;
+    padding: 20px 40px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .total__check:hover {
+      color: #222222; }
 
 /*# sourceMappingURL=style.css.map */

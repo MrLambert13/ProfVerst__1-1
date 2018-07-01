@@ -10,14 +10,15 @@ $navcolor: #222
 body
   font-family: 'Lato', sans-serif
 
-// Основной блок стилей:
-//ширина контента на страницу
 .container
   width: $contentWidth
   margin: 0 auto
 
 .marginblock
   margin: 0 50px
+
+.paddingvertical50
+  padding: 50px 0
 
 .flex
   display: flex
@@ -28,6 +29,9 @@ body
       display: flex
       justify-content: space-between
       align-items: center
+  &-aic
+    display: flex
+    align-items: center
 
 .liStyle-none
   list-style: none
@@ -920,3 +924,4 @@ body
   
 
 
+@import "sass/cart"
