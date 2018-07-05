@@ -807,21 +807,26 @@ body {
 
 .cart__menu {
   position: absolute;
-  top: 75px;
+  top: 60px;
   left: -20px;
   width: 265px;
   border-radius: 5px;
   background-color: #ffffff;
-  transition: scale 1s;
+  transition: transform 0.5s;
+  transform: scale(0); }
+
+.cart-hov:hover .cart__menu {
   transform: scale(1); }
-.cart:hover .cart__menu {
-  background-color: red; }
 
 .menuCart {
   padding: 20px;
   box-sizing: border-box; }
   .menuCart__row a {
     text-decoration: none; }
+  .menuCart__row_col1 {
+    transition: transform 0.5s; }
+    .menuCart__row_col1:hover {
+      transform: scale(1.5); }
   .menuCart__total {
     margin-top: 10px;
     margin-bottom: 30px;
@@ -861,6 +866,8 @@ body {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase; }
+    .col2__name:hover {
+      text-decoration: underline; }
   .col2__price {
     color: #f16d7f;
     font-size: 12px;
@@ -879,6 +886,11 @@ body {
   font-weight: 700;
   line-height: 12px;
   text-transform: uppercase; }
+
+.img-scale {
+  transition: transform 0.5s; }
+  .img-scale:hover {
+    transform: scale(1.5); }
 
 .detail {
   flex: 4; }
@@ -899,8 +911,6 @@ body {
       font-weight: 300; }
   .detail a:hover {
     text-decoration: underline; }
-    .detail a:hover img {
-      filter: brightness(50%); }
 
 .cardPrice {
   text-align: center; }

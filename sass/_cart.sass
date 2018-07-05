@@ -16,6 +16,13 @@ $rowtextcolor: #656565
   line-height: 12px
   text-transform: uppercase
 
+
+.img-scale
+  transition: transform 0.5s
+  &:hover
+    transform: scale(1.5)
+
+
 .detail
   flex: 4
   &__prodName
@@ -35,8 +42,8 @@ $rowtextcolor: #656565
       font-weight: 300
   a:hover
     text-decoration: underline
-    img
-      filter: brightness(50%)
+
+
 
 .cardPrice
   text-align: center

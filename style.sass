@@ -929,15 +929,18 @@ body
 .cart
   &__menu
     position: absolute
-    top: 75px
+    top: 60px
     left: -20px
     width: 265px
     border-radius: 5px
     background-color: #ffffff
-    transition: scale 1s
-    transform: scale(1)
+    transition: transform 0.5s
+    transform: scale(0)
+
+.cart-hov
   &:hover .cart__menu
-    background-color: red
+    transform: scale(1)
+
 
 .menuCart
   padding: 20px
@@ -945,6 +948,10 @@ body
   &__row
     a
       text-decoration: none
+    &_col1
+      transition: transform 0.5s
+      &:hover
+        transform: scale(1.5)
   &__total
     margin-top: 10px
     margin-bottom: 30px
@@ -985,6 +992,8 @@ body
     font-size: 12px
     font-weight: 700
     text-transform: uppercase
+    &:hover
+      text-decoration: underline
   &__price
     color: #f16d7f
     font-size: 12px
