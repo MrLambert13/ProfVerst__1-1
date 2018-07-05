@@ -56,7 +56,8 @@ body {
     height: 100%; }
     .header__flex-left, .header__flex-right {
       display: flex;
-      align-items: center; }
+      align-items: center;
+      position: relative; }
 
 .logo {
   display: inline-flex;
@@ -804,6 +805,68 @@ body {
     background-color: #ef5b70;
     color: #fff; }
 
+.cart__menu {
+  position: absolute;
+  top: 75px;
+  left: -20px;
+  width: 265px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: scale 1s;
+  transform: scale(1); }
+.cart:hover .cart__menu {
+  background-color: red; }
+
+.menuCart {
+  padding: 20px;
+  box-sizing: border-box; }
+  .menuCart__row a {
+    text-decoration: none; }
+  .menuCart__total {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .menuCart__total_text {
+      color: #222222; }
+  .menuCart__btn {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    margin-top: 10px; }
+    .menuCart__btn_check {
+      border: 1px solid #f16d7f;
+      color: #f16d7f; }
+      .menuCart__btn_check:hover {
+        color: #ffffff;
+        background-color: #f16d7f; }
+    .menuCart__btn_cart {
+      color: #4a4a4a; }
+      .menuCart__btn_cart:hover {
+        outline: 1px solid #4a4a4a; }
+
+.col2 {
+  padding-top: 10px;
+  box-sizing: border-box; }
+  .col2__star {
+    margin: 10px 0; }
+  .col2__name {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .col2__price {
+    color: #f16d7f;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase; }
+
 .row {
   border-bottom: 1px solid #eaeaea;
   color: #656565;
@@ -1049,7 +1112,7 @@ body {
       border-radius: 50%;
       transform: scale(0);
       transition: scale 0.4s; }
-  .btnRadio:checked + i:before {
+  .btnRadio:checked .btnRadio__style:before {
     transform: scale(1); }
 
 .selfstyle {
