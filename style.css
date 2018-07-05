@@ -1121,8 +1121,8 @@ body {
       background-color: #000;
       border-radius: 50%;
       transform: scale(0);
-      transition: scale 0.4s; }
-  .btnRadio:checked .btnRadio__style:before {
+      transition: transform 0.5s; }
+  .btnRadio:checked + .btnRadio__style:before {
     transform: scale(1); }
 
 .selfstyle {
