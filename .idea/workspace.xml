@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="841b0367-3bea-46e3-b1c9-4b4d0e678be6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +20,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="302">
@@ -58,7 +53,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cart.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/cart.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="302">
@@ -84,8 +79,8 @@
           <file leaf-file-name="_animation.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/_animation.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="724">
-                  <caret line="105" column="14" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="14" />
+                <state relative-caret-position="513">
+                  <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -118,10 +113,10 @@
         <option value="$PROJECT_DIR$/_animation.sass" />
         <option value="$PROJECT_DIR$/style.sass" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/sass/_animation.sass" />
         <option value="$PROJECT_DIR$/checkout.html" />
         <option value="$PROJECT_DIR$/product.html" />
         <option value="$PROJECT_DIR$/cart.html" />
+        <option value="$PROJECT_DIR$/sass/_animation.sass" />
       </list>
     </option>
   </component>
@@ -195,12 +190,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530857087201</updated>
-      <workItem from="1530857090699" duration="581000" />
+      <workItem from="1530857090699" duration="696000" />
     </task>
+    <task id="LOCAL-00001" summary="добавил анимацию меню">
+      <created>1530857746685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530857746685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="581000" />
+    <option name="totallyTimeSpent" value="696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -231,6 +234,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавил анимацию меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил анимацию меню" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.sass">
       <provider selected="true" editor-type-id="text-editor">
@@ -239,15 +246,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
-          <caret line="24" column="189" selection-start-line="24" selection-start-column="189" selection-end-line="24" selection-end-column="189" />
           <caret line="24" column="109" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
-          <folding>
-            <element signature="n#div#0;n#li#2;n#ul#0;n#nav#0;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#li#4;n#ul#0;n#nav#0;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+          <caret line="24" column="189" selection-start-line="24" selection-start-column="189" selection-end-line="24" selection-end-column="189" />
         </state>
       </provider>
     </entry>
@@ -266,18 +269,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_animation.sass">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="105" column="14" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="14" />
+        <state relative-caret-position="302">
+          <caret line="24" column="189" selection-start-line="24" selection-start-column="189" selection-end-line="24" selection-end-column="189" />
+          <caret line="24" column="109" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
+          <folding>
+            <element signature="n#div#0;n#li#2;n#ul#0;n#nav#0;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#4;n#ul#0;n#nav#0;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart.html">
+    <entry file="file://$PROJECT_DIR$/sass/_animation.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="109" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
-          <caret line="24" column="189" selection-start-line="24" selection-start-column="189" selection-end-line="24" selection-end-column="189" />
+        <state relative-caret-position="513">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
         </state>
       </provider>
     </entry>
