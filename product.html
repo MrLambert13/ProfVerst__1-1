@@ -11,7 +11,7 @@
 
 <body>
 <div class="main">
-    <section class="top">
+    <div class="top">
         <header class="header">
             <div class="container header__flex">
                 <div class="header__flex-left">
@@ -30,7 +30,7 @@
                         <a class="liStyle-none block cart" href="cart.html">
                             <img class="headerRight__card" src="img/shoppingcard.svg" alt="shopcard">
                         </a>
-                        <section class="cart__menu menuCart">
+                        <div class="cart__menu menuCart">
                             <div class="menuCart__row flex-jcsb-aic">
                                 <div class="menuCart__row_col1">
                                     <a href="#"><img src="img/reboxzane1.jpg" alt=""></a>
@@ -63,7 +63,7 @@
                             </div>
                             <a href="checkout.html" class="menuCart__btn menuCart__btn_check ">chekout</a>
                             <a href="cart.html" class="menuCart__btn menuCart__btn_cart ">go to cart</a>
-                        </section>
+                        </div>
                     </div>
                     <a class="headerRight__account" href="#">My Account <i class="fas fa-caret-down"></i></a>
                 </div>
@@ -250,27 +250,27 @@
                             </div>
                             <form action="#">
                                 <fieldset>
-                                    <legend class="filter__main-text" for="size">SIZE</legend>
-                                    <label for="XXS"><input type="checkbox" name="" id="XXS">XXS</label>
-                                    <label for="XS"><input type="checkbox" name="" id="XS">XS</label>
-                                    <label for="S"><input type="checkbox" name="" id="S">S</label>
-                                    <label for="M"><input type="checkbox" name="" id="M">M</label>
-                                    <label for="L"><input type="checkbox" name="" id="L">L</label>
-                                    <label for="XL"><input type="checkbox" name="" id="XL">XL</label>
-                                    <label for="XXL"><input type="checkbox" name="" id="XXL">XXL</label>
+                                    <legend class="filter__main-text" >SIZE</legend>
+                                    <label for="XXS"><input type="checkbox"  id="XXS">XXS</label>
+                                    <label for="XS"><input type="checkbox"  id="XS">XS</label>
+                                    <label for="S"><input type="checkbox"  id="S">S</label>
+                                    <label for="M"><input type="checkbox"  id="M">M</label>
+                                    <label for="L"><input type="checkbox"  id="L">L</label>
+                                    <label for="XL"><input type="checkbox"  id="XL">XL</label>
+                                    <label for="XXL"><input type="checkbox"  id="XXL">XXL</label>
                                 </fieldset>
                             </form>
                             <div class="price">
                                 <h2 class="filter__main-text">Price</h2>
-                                <input class="range" id="range" type="range" min="52" max="400" step="1" multiple=2>
+                                <input class="range" id="range" type="range" min="52" max="400" step="1" >
                             </div>
                         </div>
                         <div class="filter__sort">
-                            <label for="sortby">Sort By</label><select name="sortby">
+                            <label >Sort By</label><select name="sortby">
                             <option value="Name">Name</option>
                             <option value="Price">Price</option>
                         </select>
-                            <label for="show">show</label><select name="show">
+                            <label >show</label><select name="show">
                             <option value="9">09</option>
                             <option value="12">12</option>
                         </select>
@@ -475,7 +475,7 @@
             </div>
         </div>
         <article class="footerhigh">
-            <section class="container flex">
+            <div class="container flex">
 
                 <div class="logocopy">
                     <a class="logo" href="index.html">
@@ -523,9 +523,9 @@
                     </ul>
                 </div>
 
-            </section>
+            </div>
         </article>
-    </section>
+    </div>
     <footer class="footerlow">
         <div class="container flex-jcsb-aic heigth100">
             <p class="footerlow__copyright">&copy; 2017 Brand All Rights Reserved.</p>
@@ -538,7 +538,7 @@
             </div>
         </div>
     </footer>
-
+</div>
 </body>
 
 </html>
